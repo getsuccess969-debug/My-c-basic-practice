@@ -1,0 +1,6 @@
+﻿  Main.cpp
+C:\Users\Aarush\source\repos\[rac\[rac\Main.cpp(19,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Aarush\source\repos\[rac\[rac\Main.cpp(23,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Vehicle.cpp
+  Generating Code...
+  [rac.vcxproj -> C:\Users\Aarush\source\repos\[rac\x64\Debug\[rac.exe
