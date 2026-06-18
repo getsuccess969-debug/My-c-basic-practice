@@ -45,6 +45,19 @@ Integer	Integer::operator+(Integer& b) {
 	*temp.ptr = *ptr + *b.ptr;
 	return temp;
 }
+void Integer::set(int x)
+{
+	if (ptr == nullptr) { ptr = new int(x); }
+	else {
+		*ptr = x;
+	}
+}
 int Integer :: get() const{
 	return *ptr;
+}
+void Integer::operator()() {
+	std::cout << *ptr;
+}
+void Integer::operator()(int x) {
+	std::cout << *ptr << "\n";
 }
