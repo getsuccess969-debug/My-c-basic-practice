@@ -13,5 +13,8 @@ public:
 	friend Integer operator+(const Integer& lhs, const Integer& rhs);
 	friend Integer operator+(const Integer& lhs, int rhs);
 	friend Integer operator+(int lhs, const Integer& rhs);
+	void operator()();
+	void operator()(int x);
+	void set(int x);
 	int get() const;
 };
